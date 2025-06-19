@@ -1,0 +1,68 @@
+name: maizeplant
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^3.10.0
+  firebase_auth: ^5.4.0
+  firebase_database: ^11.3.0
+  pdf: ^3.7.1
+  open_file: ^3.3.2
+  path_provider: ^2.1.1
+  image_picker: ^1.0.4
+  win32: ^5.10.0
+  archive: ^3.1.0
+  tflite_flutter: ^0.11.0
+  image: ^4.3.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/vddm_icon.png"
+
+flutter_native_splash:
+  color: "#ffffff" # Background color for the splash screen.
+  image: assets/vddm_logo.png # Path to your splash screen image.
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/ml/best_float32.tflite
+    - lib/ml/labels.txt
+    - assets/cover.png
+    - assets/cover_2.png
+    - assets/login.png
+    - assets/Maize.png
+    - assets/sign_up.png
+    - assets/veritas logo.png
+    - assets/vddm_icon.png
+    - assets/vddm_logo.png
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+

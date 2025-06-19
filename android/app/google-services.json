@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205776846713",
+    "project_id": "maizeplant-94f71",
+    "storage_bucket": "maizeplant-94f71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205776846713:android:452f75f57800d5ee2fb9a8",
+        "android_client_info": {
+          "package_name": "com.example.maizeplant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoD6gzqP2V3II9GMzMeTwTw9yHb63XddQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
