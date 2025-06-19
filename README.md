@@ -1,16 +1,1 @@
-# maizeplant
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Nigeria is Africa’s leading maize producer, with 12.75 million metric tonnes produced in 2021. However, maize production has stagnated since 2019, resulting in increased importation and heightened food insecurity. This study addresses the need for an accessible, efficient, and offline-capable system for detecting maize diseases tailored to smallholder farmers. The objective is to develop a mobile-based application that utilises computer vision to detect common maize diseases and improve crop productivity. The dataset used for this research includes images of maize crops from Nigeria and publicly available datasets on Kaggle. These data were used to train prediction models, including YOLOv8, YOLOv10, and YOLOv11, which achieved prediction accuracies of 81%, 85%, and 93%, respectively. The results indicate that YOLOv11 outperforms its predecessors in both speed and accuracy, successfully detecting grey leaf Spot, blight, common rust diseases, and healthy maize leaves in under one second without requiring an internet connection. Agile methodology was employed in developing the mobile application, while the CRISP-DM framework guided the training and deployment of the YOLOv11 deep learning model, which was converted to TensorFlow Lite for offline use. The system’s features include image capture, upload, analysis, and feedback, providing a practical tool for early disease detection. These outcomes suggest that the proposed mobile system can empower Nigerian smallholder farmers to increase maize yields, enhance sustainable disease management, and contribute significantly to food security in similar agricultural contexts. Future research can focus on incorporating real-time environmental data to improve disease prediction, which would be especially beneficial for Nigeria due to the link between climate and plant disease spread.
